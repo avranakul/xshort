@@ -15,14 +15,7 @@ def summarize(): # Programm for summarizing
     article.parse()
     article.nlp()
 
-    # print(f'Title: {article.title}')
-    #
-    # print(f'Author: {article.authors}')
-    #
-    # print(f'Publish Date: {article.publish_date}')
-    #
-    # print(f'Summary: {article.summary}')
-
+    
     title.config(state='normal')
     author.config(state='normal')
     publication.config(state='normal')
